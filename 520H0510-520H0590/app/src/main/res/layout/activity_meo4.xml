@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#BFF3E8"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Lý thuyết về sa hình sẽ phức tạp nhiều hơn so với các dạng còn lại. Vậy nên, bạn cần thực hiện các bước sau để chọn được đáp án chính xác nhất trong quá trình làm bài thi lý thuyết về phần sa hình:" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -   Bước 1: Xét xe trong giao lộ. " />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -   Bước 2: Xét các loại xe được ưu tiên (bao gồm: xe cứu hỏa, xe quân sự, xe công an, xe cứu thương)." />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -   Bước 3: Xét xe đường ưu tiên (dựa vào biển báo)." />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -   Bước 4: Xét xe bên phải không vướng (từ ngã 4)." />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -   Bước 5: Xét xe rẽ phải trước, đi thẳng, rẽ trái, quay đầu." />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Có một số mẹo có thể được áp dụng là:" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -   Câu hỏi có vòng xuyến -> chọn nhường bên trái." />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -   Câu hỏi không có vòng xuyến -> chọn nhường bên phải." />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -   Câu hỏi có 2 hình giống nhau chọn theo quy tắc -> chọn theo quy tắc phải, thẳng, trái." />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -   Câu hỏi “xe nào chấp hành đúng hướng mũi tên” -> chọn đáp án 2." />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -   Câu hỏi có nhắc đến việc thấy công an giao thông -> chọn đáp án 3." />
+</LinearLayout>

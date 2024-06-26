@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#BFF3E8"
+    android:orientation="vertical"
+    tools:context=".MeoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="   Trong bài thi lý thuyết B1, không thể thiếu những câu hỏi về tốc độ. Đối với những câu hỏi này, bạn cần lưu ý một số mẹo chọn đáp án chính xác đơn giản sau đây:" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" -   Những câu hỏi tốc độ 50km/h -> chọn đáp án 3." />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" -   Những câu hỏi tốc độ 60km/h -> chọn đáp án 4." />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" -   Những câu hỏi tốc độ 70km/h -> chọn đáp án 2." />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" -   Những câu hỏi tốc độ 80km/h -> chọn đáp án 1." />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Ngoài ra, để không bị nhầm lẫn trong quá trình làm bài hoặc ghi nhớ đơn giản hơn, bạn có thể hiểu và nhớ mẹo ngắn gọn các con số tương ứng với câu trả lời về câu hỏi tốc độ là: 8=1; 7=2; 5=3; 6=4." />
+</LinearLayout>

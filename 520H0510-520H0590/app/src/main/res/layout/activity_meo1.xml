@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#BFF3E8"
+    android:orientation="vertical"
+    tools:context=".MeoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trước tiên, có 5 loại biển báo chính cần phải ghi nhớ là:
+                    -   Biển báo nguy hiểm: Hình tam giác, nền vàng, viền đỏ, biểu tượng hình vẽ màu đen.
+      " />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" -  Biển báo cấm: Hình tròn, nền trắng, viền đỏ, biểu tượng hình vẽ màu đen." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" -  Biển hiệu lệnh: Hình tròn, nền xanh, biểu tượng hình vẽ màu trắng." />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" -  Biển chỉ dẫn: Hình chữ nhật, nền xanh, biểu tượng hình vẽ màu trắng." />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" -  Biển phụ: Hình chữ nhật, nền trắng, biểu tượng hình vẽ màu đen." />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Về phần câu hỏi biển báo, có một số mẹo trả lời chuẩn hiệu quả áp dụng được là:" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -  Các câu hỏi có 2 hoặc 3 biển tròn màu xanh được chia thành 2 trường hợp: Câu hỏi dài 1 hàng thì chọn đáp án 1. Câu hỏi dài 2 hàng chọn đáp án 3." />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -  Câu trả lời nào xuất hiện đáp án về biển báo có cụm từ “Không được phép” thì chọn đáp án đó." />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -  Đỗ xe không có giới hạn thời gian nhưng dừng xe thì có giới hạn thời gian cụ thể, hãy chọn đáp án có giới hạn thời gian cho việc dừng xe." />
+
+
+</LinearLayout>
